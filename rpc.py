@@ -2,7 +2,6 @@ import random
 
 choices = ["r", "p", "s"]
 
-
 def winner(player_choice, computer_choice):
     if player_choice == computer_choice:
         return "It's a tie!"
@@ -12,7 +11,6 @@ def winner(player_choice, computer_choice):
         return "You win!"
     else:
         return "You lose!"
-
 
 def rpc():
     print("Welcome to Rock-Paper-Scissors!")
@@ -35,6 +33,6 @@ def rpc():
         print(result)
         print()
 
-
-# Run the game
 rpc()
+
+#done
